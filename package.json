@@ -1,7 +1,7 @@
 {
-  "name": "zsh-syntax",
-  "displayName": "Zsh: Syntax",
-  "description": "Zsh language syntax based on Bash language built-in in VSCode.",
+  "name": "zshsyntax",
+  "displayName": "zshsyntax",
+  "description": "Zsh language syntax created from official Bash language .tmLanguage.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -18,7 +18,7 @@
       } ],
     "grammars": [ {
         "language": "zshscript",
-        "scopeName": "source.zsh-syntax",
+        "scopeName": "source.zshsyntax",
         "path": "./syntaxes/zshscript.tmLanguage.json"
       } ]
   }

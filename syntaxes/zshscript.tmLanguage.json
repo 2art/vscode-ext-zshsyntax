@@ -6,7 +6,7 @@
 	],
 	"version": "https://github.com/jeff-hykin/better-shell-syntax/commit/6d0bc37a6b8023a5fddf75bd2b4eb1e1f962e4c2",
 	"name": "ZShell",
-	"scopeName": "source.zsh-script",
+	"scopeName": "source.zshsyntax",
 	"patterns": [
 		{ "include": "#initial_context" }
 	],
