@@ -1,0 +1,9 @@
+# VSCodium workspace config & extension files
+/.vscode/
+*.vsix
+
+# Temporary/backup files
+*.*~
+
+# Other temporary files
+node_modules

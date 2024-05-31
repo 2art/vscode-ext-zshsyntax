@@ -1,0 +1,25 @@
+{
+  "name": "zsh-syntax",
+  "displayName": "Zsh: Syntax",
+  "description": "Zsh language syntax based on Bash language built-in in VSCode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [ {
+        "id": "zshscript",
+        "aliases": [ "zsh" ],
+        "extensions": [ ".zsh", ".zshrc", ".zshenv", ".zlogin", ".zlogout", ".zprofile" ],
+        "configuration": "./language-configuration.json"
+      } ],
+    "grammars": [ {
+        "language": "zshscript",
+        "scopeName": "source.zsh-syntax",
+        "path": "./syntaxes/zshscript.tmLanguage.json"
+      } ]
+  }
+}
